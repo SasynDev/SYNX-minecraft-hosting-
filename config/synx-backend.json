@@ -1,0 +1,28 @@
+{
+  "server": {
+    "listen_host": "0.0.0.0",
+    "listen_port": 8080,
+    "jwt_secret": "synx_jwt_ultra_secret_key_change_in_production_2026",
+    "jwt_expiration_hours": 24,
+    "cors_allowed_origins": [
+      "http://localhost:5173",
+      "http://127.0.0.1:5173",
+      "https://panel.synx.local"
+    ]
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "database": "synx_hosting",
+    "username": "synx_user",
+    "password": "synx_secure_password_2026",
+    "pool_size": 10,
+    "ssl_mode": "prefer"
+  },
+  "agent": {
+    "endpoint": "http://127.0.0.1:8443",
+    "auth_token": "synx_agent_dev_token_default_secret_998244353",
+    "timeout_seconds": 10
+  }
+}
+

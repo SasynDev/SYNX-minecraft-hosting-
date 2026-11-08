@@ -1,0 +1,14 @@
+{
+  "node_id": "b0000000-0000-0000-0000-000000000001",
+  "name": "localhost-minecraft-server",
+  "hardware": {
+    "device": "Localhost Minecraft Server (Windows 11)",
+    "cpu": "Intel Core i5-12500H",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU (4GB)",
+    "ram_installed_mb": 8192,
+    "storage_nvme_gb": 512,
+    "os": "Windows 11 Home 64-bit"
+  },
+  "roles": ["master", "game_node", "backup_target"]
+}
+

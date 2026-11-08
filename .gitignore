@@ -1,0 +1,47 @@
+# Build artifacts
+build/
+build_test/
+bin/
+out/
+*.exe
+*.dll
+*.obj
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# CTest / CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Node & Frontend
+node_modules/
+web/node_modules/
+web/dist/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Server runtime & World storage (Ignore heavy binaries & worlds)
+cache/
+instances/
+backups/
+
+# Logs
+logs/*.log
+*.log
+
+# IDE & Editor files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
